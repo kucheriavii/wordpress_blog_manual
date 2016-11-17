@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="style/bootstrap.min.css">
-	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/style.css">
 	
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 	
 	<meta charset="utf-8">
 	<title>Супер шаблон</title>
